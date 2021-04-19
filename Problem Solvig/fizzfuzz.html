@@ -1,0 +1,21 @@
+<html>
+  <head></head>
+  <title>Fizz Fuzz</title>
+  <body>
+    <script>
+      let num = prompt("Enter any number upto 100");
+
+      for (let i = 1; i <= num; i++) {
+        if (i % 3 == 0 && i % 5 == 0) {
+          console.log("Fizz Fuzz");
+        } else if (i % 3 == 0) {
+          console.log("Fizz");
+        } else if (i % 5 == 0) {
+          console.log("Fuzz");
+        } else {
+          console.log(i);
+        }
+      }
+    </script>
+  </body>
+</html>
